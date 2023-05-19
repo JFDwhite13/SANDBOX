@@ -25,9 +25,9 @@ class App{
     }
 
     public start():void{
-        const port = 3000
+        const port = 3002
         this.app.listen(
-            port,()=>{`Server started in port ${port}`}
+            port,()=>{console.log(`Server started in port ${port}`)}
         )
     }
 
